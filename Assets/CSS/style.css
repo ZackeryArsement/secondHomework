@@ -23,9 +23,14 @@ nav{
 }
 
 h1{
-    color: var(--darkRed);
+    color: black;
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
+    background: linear-gradient(to top, var(--lightRed), var(--darkRed));
+    border-radius: 5px;
+    width: 20%;
+    margin: 2.5% 40%;
+    justify-content: center;
 }
 
 .left-align{
@@ -179,5 +184,19 @@ footer a{
 .contact-box li{
     text-align: center;
     font-size: 1.75rem;
+}
+
+/* Reactive Screen */
+
+@media screen and (max-width: 769px) {
+    .project{
+        max-width: 90%;
+        margin: 2.5% 10% 0 10%;
+    }
+
+    .contact-box{
+        max-width: 60%;
+        margin: 5 20%;
+    }
 }
 
