@@ -28,12 +28,6 @@ h1{
     padding: 2rem;
 }
 
-/* ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-} */
-
 .left-align{
     display: inline-block;
     float: left;
@@ -51,7 +45,7 @@ h1{
 }
 
 p{
-    line-height: 125%;
+    line-height: 150%;
     color: white;
     margin: 0 4rem;
 }
@@ -84,15 +78,20 @@ p{
 
 /* First Project */
 #project-one{
-    margin:  0 2.5%;
+    display: block;
+    max-width: 80%;
+    margin: 0 10%;
+}
+
+#horiseon-picture{
+    display: block;
+    width: 100%;
     text-align: center;
     flex: 1 0 400px;
-    padding: 8rem;
     border-radius: 15px;
-    text-align: center;
     border-style: solid;
     border-width: 2px;
-    background-color: var(--darkGrey);
+    border-color: black;
 }
 
 /* Project List */
@@ -103,15 +102,22 @@ p{
 }
 
 .project{
-    max-width: 45%;
-    margin: 2.5%;
-    flex: 1 0 400px;
-    padding: 4rem;
-    border-radius: 15px;
+    display: block;
+    max-width: 40%;
+    margin: 5%;
     text-align: center;
+    flex: 1 0 40%;
+}
+
+.project img{
+    display: block;
+    max-width: 100%;
+    text-align: center;
+    flex: 1 0 400px;
+    border-radius: 15px;
     border-style: solid;
     border-width: 2px;
-    background-color: var(--darkGrey);
+    border-color: black;
 }
 
 /* Future Outlook Section */
@@ -137,14 +143,15 @@ footer{
 }
 
 .contact-box{
-    max-width: 20%;
-    margin: 2.5%;
-    flex: 0 0 200px;
+    max-width: 30%;
+    margin: 1.5%;
+    flex: 0 0 300px;
     padding: 1rem;
     border-radius: 15px;
     border-style: solid;
     border-width: 2px;
     background-color: var(--darkGrey);
+    color: white;
 }
 
 .contact-box li{
