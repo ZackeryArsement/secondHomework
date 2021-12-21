@@ -79,8 +79,8 @@ p{
 /* First Project */
 #project-one{
     display: block;
-    max-width: 80%;
-    margin: 0 10%;
+    max-width: 90%;
+    margin: 0 5%;
 }
 
 #horiseon-picture{
@@ -94,6 +94,11 @@ p{
     border-color: black;
 }
 
+#horiseon-picture:hover{
+    border-color: var(--darkRed);
+    box-shadow: 0 0 10px 10px var(--darkRed);
+}
+
 /* Project List */
 .project-list{
     display: flex;
@@ -104,9 +109,14 @@ p{
 .project{
     display: block;
     max-width: 40%;
-    margin: 5%;
+    margin: 2.5% 5% 0 5%;
     text-align: center;
     flex: 1 0 40%;
+}
+
+.project img:hover{
+    border-color: var(--darkRed);
+    box-shadow: 0 0 10px 10px var(--darkRed);
 }
 
 .project img{
@@ -142,6 +152,12 @@ footer{
     background: linear-gradient(to top, var(--darkGrey), var(--lightGrey));
 }
 
+footer a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
 .contact-box{
     max-width: 30%;
     margin: 1.5%;
@@ -154,12 +170,14 @@ footer{
     color: white;
 }
 
+.contact-box:hover {
+    border-color: var(--darkRed);
+    box-shadow: 0 0 10px 10px var(--darkRed);
+
+}
+
 .contact-box li{
     text-align: center;
     font-size: 1.75rem;
 }
 
-.contact-box a{
-    color: white;
-    text-align: center;
-}
