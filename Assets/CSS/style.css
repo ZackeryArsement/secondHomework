@@ -1,0 +1,158 @@
+*{
+    font-style: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --darkGrey: rgb(43, 41, 41);
+    --lightGrey: rgb(75, 75, 75);
+    --darkRed: rgb(160, 5, 5);
+    --lightRed: rgb(255, 0, 0);
+}
+
+/* Navigation Bar */
+nav{
+    width: 100%;
+    height: 6rem;
+    background: linear-gradient(var(--darkGrey), var(--lightGrey));
+    position: fixed;
+    top: 0;
+}
+
+.nav-list{
+    bottom: 16px;
+}
+
+h1{
+    color: var(--darkRed);
+    text-align: center;
+    padding: 2rem;
+}
+
+/* ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+} */
+
+.left-align{
+    display: inline-block;
+    float: left;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.right-align{
+    float: right;
+    text-align: center;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+}
+
+p{
+    line-height: 125%;
+    color: white;
+    margin: 0 4rem;
+}
+
+#profile-picture{
+    display: inline-block;
+    margin: 10px;
+    border-radius: 50%;
+    border-width: 3px;
+    height: 5rem;
+    width: 5rem;
+    font: 1.5rem;
+    color: white;
+}
+
+/* About me paragraph */
+.self-intoduction{
+    margin-top: 6rem;
+    background: linear-gradient(var(--darkGrey), var(--lightGrey));
+}
+
+.self-intoduction p{
+    padding: 30px;
+    padding-bottom: 6rem;
+}
+
+.project-section{
+    background: linear-gradient(to top, var(--darkGrey), var(--lightGrey));
+}
+
+/* First Project */
+#project-one{
+    margin:  0 2.5%;
+    text-align: center;
+    flex: 1 0 400px;
+    padding: 8rem;
+    border-radius: 15px;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    background-color: var(--darkGrey);
+}
+
+/* Project List */
+.project-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project{
+    max-width: 45%;
+    margin: 2.5%;
+    flex: 1 0 400px;
+    padding: 4rem;
+    border-radius: 15px;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    background-color: var(--darkGrey);
+}
+
+/* Future Outlook Section */
+.future-background{
+    background: linear-gradient(var(--darkGrey), var(--lightGrey));
+}
+
+.future-outlook{
+    border-radius: 45px;
+    border-width: 2px;
+    border-color: black;
+    padding: 30px;
+    padding-bottom: 80px;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(to top, var(--darkGrey), var(--lightGrey));
+}
+
+.contact-box{
+    max-width: 20%;
+    margin: 2.5%;
+    flex: 0 0 200px;
+    padding: 1rem;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: var(--darkGrey);
+}
+
+.contact-box li{
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+.contact-box a{
+    color: white;
+    text-align: center;
+}
