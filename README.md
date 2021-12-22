@@ -9,13 +9,13 @@ Built with: HTML5, CSS3
 
 # Summary: 
 
-![Portfolio Wireframe](C:\Users\OEM\Desktop\Bootcamp\secondHomework\Assets\images\PortfolioWireframe.png)
+![Portfolio Wireframe](https://zackeryarsement.github.io/secondHomework/assets/images/PortfolioWireframe.png)
 
 The web portfolio is meant to highlight my skills and provide a general summary of my background. 
 
 The wireframe above was used as a guide through designing my html and css code. 
 
-![Portfolio Webpage](C:\Users\OEM\Desktop\Bootcamp\secondHomework\Assets\images\WebPortfolioVid.gif)
+![Portfolio Webpage](https://zackeryarsement.github.io/secondHomework/assets/images/WebPortfolioVid.gif)
 
 The color theme and style of the portfolio is heavily influenced by my background in mechanical engineering and robotics. I want my portfolio to have a "mecha" style, using a dark steel grey with red and orange contrast. 
 
