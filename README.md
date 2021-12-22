@@ -3,7 +3,7 @@ Title: Portfolio Web Application
 Developer: Zackery Arsement
 Deployment Date:  12/21/2021
 For:  UT JavaScript Coding Bootcamp 
-Published: GitHub <https://slippa91.github.io/Crystal_Counter/> 
+Published: GitHub <https://zackeryarsement.github.io/secondHomework/> 
 Built with: HTML5, CSS3
 
 
